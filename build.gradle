@@ -42,7 +42,7 @@ dependencies {
 	testImplementation('it.ozimov:embedded-redis:0.7.3') {
 		exclude group: 'org.slf4j', module: 'slf4j-simple'
 	}
-	testImplementation 'com.fasterxml.jackson.dataformat:jackson-dataformat-csv:2.11.0'
+	testImplementation 'com.fasterxml.jackson.dataformat:jackson-dataformat-csv:2.11.1'
 	testImplementation 'org.projectlombok:lombok'
 	testAnnotationProcessor 'org.projectlombok:lombok'
 }
