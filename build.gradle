@@ -31,7 +31,7 @@ jar {
 dependencies {
 	compileOnly 'org.projectlombok:lombok'
 	annotationProcessor 'org.projectlombok:lombok'
-	api 'io.lettuce:lettuce-core:5.3.3.RELEASE'
+	api 'io.lettuce:lettuce-core:5.3.4.RELEASE'
 	api 'org.apache.commons:commons-pool2'
 	implementation 'org.springframework.boot:spring-boot-starter-batch'
 	testImplementation('org.springframework.boot:spring-boot-starter-test') {
