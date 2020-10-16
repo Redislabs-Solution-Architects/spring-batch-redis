@@ -19,7 +19,7 @@ repositories {
 }
 
 dependencies {
-	compileOnly 'org.projectlombok:lombok:1.18.14'
+	compileOnly 'org.projectlombok:lombok:1.18.16'
 	annotationProcessor 'org.projectlombok:lombok:1.18.14'
 	api 'io.lettuce:lettuce-core:6.0.0.RELEASE'
 	api 'org.apache.commons:commons-pool2:2.9.0'
