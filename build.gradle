@@ -21,7 +21,7 @@ repositories {
 dependencies {
 	compileOnly 'org.projectlombok:lombok:1.18.16'
 	annotationProcessor 'org.projectlombok:lombok:1.18.16'
-	api 'io.lettuce:lettuce-core:6.0.0.RELEASE'
+	api 'io.lettuce:lettuce-core:6.0.1.RELEASE'
 	api 'org.apache.commons:commons-pool2:2.9.0'
 	implementation ('org.springframework.boot:spring-boot-starter-batch:2.3.4.RELEASE') {
 		exclude group: 'io.lettuce', module: 'lettuce-core'
