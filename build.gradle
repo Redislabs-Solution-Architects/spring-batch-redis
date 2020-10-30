@@ -26,7 +26,7 @@ dependencies {
 	implementation ('org.springframework.boot:spring-boot-starter-batch:2.3.4.RELEASE') {
 		exclude group: 'io.lettuce', module: 'lettuce-core'
 	}
-	testImplementation('org.springframework.boot:spring-boot-starter-test:2.3.4.RELEASE') {
+	testImplementation('org.springframework.boot:spring-boot-starter-test:2.3.5.RELEASE') {
 		exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
 	}
 	testImplementation 'org.springframework.batch:spring-batch-test:4.2.4.RELEASE'
