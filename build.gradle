@@ -34,7 +34,7 @@ dependencies {
         exclude group: 'io.lettuce', module: 'lettuce-core'
     }
     implementation 'com.hybhub:concurrent-util:0.3.0'
-    api 'io.micrometer:micrometer-core:1.6.0'
+    api 'io.micrometer:micrometer-core:1.6.1'
     testImplementation('org.springframework.boot:spring-boot-starter-test:2.3.5.RELEASE') {
         exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
     }
