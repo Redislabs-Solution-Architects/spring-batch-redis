@@ -35,7 +35,7 @@ dependencies {
     }
     implementation 'com.hybhub:concurrent-util:0.3.0'
     api 'io.micrometer:micrometer-core:1.6.0'
-    testImplementation('org.springframework.boot:spring-boot-starter-test:2.3.5.RELEASE') {
+    testImplementation('org.springframework.boot:spring-boot-starter-test:2.4.0') {
         exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
     }
     testImplementation 'org.springframework.batch:spring-batch-test:4.3.0'
