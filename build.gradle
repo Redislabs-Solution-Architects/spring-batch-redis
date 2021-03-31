@@ -40,7 +40,7 @@ dependencies {
     annotationProcessor 'org.projectlombok:lombok'
     implementation 'com.hybhub:concurrent-util:0.3.0'
     compileOnly 'com.google.code.findbugs:jsr305:3.0.2'
-    api 'io.lettuce:lettuce-core:6.0.3.RELEASE'
+    api 'io.lettuce:lettuce-core:6.1.0.RELEASE'
     api 'org.apache.commons:commons-pool2'
     implementation ('org.springframework.boot:spring-boot-starter-batch') {
         exclude group: 'io.lettuce', module: 'lettuce-core'
